@@ -8,8 +8,11 @@ ruby '2.7.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.6'
 
+
+
 gem 'bcrypt'
 gem 'faker', '~> 2.19'
+gem 'mailcatcher'
 gem 'will_paginate', '~> 3.3', '>= 3.3.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.2'
 # Use sqlite3 as the database for Active Record
