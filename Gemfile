@@ -41,6 +41,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'rails-controller-testing'
+gem 'pg'
 
 
 # Use ActiveStorage variant
@@ -55,7 +56,6 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
-  gem 'pg'
 end
 
 group :development do
@@ -69,7 +69,7 @@ end
 
 
 group :production do
-  gem 'pg'
+
 end
 
 group :test do
