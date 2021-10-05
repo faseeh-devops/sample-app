@@ -15,3 +15,4 @@ User.create!(name: 'Faseeh', email: 'faseeh.shahzad@devsinc.com', password: '123
   User.create!(name: name, email: email, password: password, password_confirmation: password, activated: true,
                activated_at: Time.zone.now)
 end
+

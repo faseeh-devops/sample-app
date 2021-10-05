@@ -14,4 +14,8 @@ class StaticPagesController < ApplicationController
   def about; end
 
   def contact; end
+
+  def error
+    render file: 'public/404.html'
+  end
 end
