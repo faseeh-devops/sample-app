@@ -9,4 +9,12 @@ class ApplicationController < ActionController::Base
     redirect_to(request.referer || root_path)
   end
 
+  def logged_in_user
+    unless logged_in
+      store location
+      flash[:danger] = 'Please Log In First'
+      redirect_to login_url
+    end
+  end
+
 end
