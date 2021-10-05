@@ -9,9 +9,10 @@ ruby '2.7.2'
 gem 'rails', '~> 5.2.6'
 
 
-
+gem 'activeadmin', '~> 2.9'
 gem 'bcrypt'
 gem 'carrierwave'
+gem 'devise'
 gem 'faker', '~> 2.19'
 gem 'fog', '~> 1.38.0'
 gem 'mini_magick'
